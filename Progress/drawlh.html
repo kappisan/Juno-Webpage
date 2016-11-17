@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>body { overflow: hidden; background: #000; }
+
+#Logo {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0; right: -25%; bottom: 0; left: -25%;
+  margin: auto;
+  display:block; 
+  fill: #aa7f3d;
+  fill: url("#MyGradient");
+  stroke: #EEBE7B;
+  stroke-miterlimit: 5;
+}
+
+.Animate-Draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  
+  animation-name: DrawLine, FadeStroke, FillIn;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 0s, 3.5s, 2.0s;
+}
+
+#Draw-Mark {
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100; 
+}
+
+#Draw-Frame { 
+  animation-delay: .1s, 3.5s, 1.5s;
+  animation-duration: 3.5s, 1s, 2s; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+
+}
+
+#Draw-Text { 
+  animation-delay: .1s, 3.5s, 1.5s; 
+  animation-duration: 2s, 1s, 2s; 
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+  //animation-duration: 4s;
+}
+
+@keyframes DrawLine {
+  to { stroke-dashOffset: 0; }
+}
+
+@keyframes FadeStroke {
+  to { stroke-opacity: 0; }
+}
+
+@keyframes FillIn {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}
+
+/* ============================================================================================== 
+Nick Mkrtchyan
+http://www.facebook.com/sonick.pk
+http://www.Mkrtchyan.zz.mu
+================================================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    z-index:3;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
+
+
+</style>
+</head>
+<body>
+<div class="stars">
+<div class="twinkling">
+<div class="clouds">
+
+<svg id="Logo-Defs" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+  <defs>
+    <linearGradient id="MyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="5%"  stop-color="#F7D696"/>
+      <stop offset="50%" stop-color="#EEBE7B" />
+      <stop offset="95%" stop-color="#CEA058"/>
+    </linearGradient>
+  
+    <g id="Logo-Group">
+  <path id="Mark" d="M349.128,424.287c0,13.5,4.749,25,14.25,34.5c9.499,9.502,21,14.25,34.5,14.25s24.999-4.748,34.5-14.25
+		c9.499-9.5,14.25-21,14.25-34.5v-75h-3.75v75c0,12.4-4.401,23.002-13.2,31.799c-8.801,8.801-19.401,13.201-31.8,13.201
+		c-12.401,0-23.001-4.4-31.8-13.201c-8.801-8.797-13.2-19.398-13.2-31.799"/>
+  
+
+  
+  
+<path id="Frame" d="M596.624,354.387v118.65h-3.75v-123.75h4.8l86.101,118.65v-118.65h3.75v123.75h-4.801L596.624,354.387z"/>
+  
+  <g id="Logo-Text">
+  <path id="Frame"class="Text"  d="M469.126,424.287v-75h3.75v75c0,12.4,4.399,23.002,13.2,31.799c8.798,8.801,19.399,13.201,31.8,13.201
+		c12.398,0,22.999-4.4,31.8-13.201c8.799-8.797,13.2-19.398,13.2-31.799v-75h3.75v75c0,13.5-4.751,25-14.25,34.5
+		c-9.501,9.502-21,14.25-34.5,14.25s-25.001-4.748-34.5-14.25C473.875,449.287,469.126,437.787,469.126,424.287z"/>
+  
+<path id="PubGrill" class="Text"  d="M822.222,364.737c12.8,12.802,19.2,28.252,19.2,46.35c0,18.203-6.4,33.701-19.2,46.5
+		c-12.802,12.803-28.251,19.201-46.35,19.201c-18.202,0-33.701-6.398-46.5-19.201c-12.802-12.799-19.2-28.297-19.2-46.5
+		c0-18.098,6.398-33.548,19.2-46.35c12.799-12.799,28.298-19.199,46.5-19.199C793.971,345.538,809.42,351.938,822.222,364.737z
+		 M775.872,349.288c-17.101,0-31.702,6.051-43.8,18.149c-12.102,12.101-18.15,26.651-18.15,43.649c0,17.101,6.049,31.703,18.15,43.8
+		c12.098,12.102,26.699,18.15,43.8,18.15c16.999,0,31.549-6.049,43.649-18.15c12.099-12.098,18.15-26.699,18.15-43.8
+		c0-16.998-6.052-31.549-18.15-43.649C807.421,355.338,792.871,349.288,775.872,349.288z"/>
+      </g>
+  </g>
+  </defs>
+</svg>
+
+<svg id="Logo" class="Animate-Path" width="100%" height="100%" viewBox="0 0 612 792" xml:space="preserve">
+  <use id="Draw-Mark" class="Animate-Draw" xlink:href="#Mark" />
+  <use id="Draw-Frame" class="Animate-Draw" xlink:href="#Frame" />
+  <use id="Draw-Text" class="Animate-Draw" xlink:href="#Logo-Text" />
+  <!--<use class="Animate-Fill" xlink:href="#Logo-Group" /> -->
+</svg> 
+
+</div></div></div>
+
+</object>
+</body>
+</html>
