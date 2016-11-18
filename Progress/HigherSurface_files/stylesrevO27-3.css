@@ -890,7 +890,7 @@ p {      font-size: 20pt;
      padding-left: 30px;
     text-align: left;
  font-weight: normal!important;
- 
+ width: 90%;
      text-transform: none;
 }    
 
@@ -915,9 +915,9 @@ p {      font-size: 20pt;
     color: #08003e;
     position: relative;
     top: -10px;
-    max-width: 90%;
+    
     text-align: left;
-    width: 80%;
+    width: 95%;
    padding-left: 0px;
     font-weight: normal!important;
 }  

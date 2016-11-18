@@ -41,7 +41,7 @@ html, body {
           transform-style: preserve-3d;
   border-radius: 100%;
   box-sizing: border-box;
-  box-shadow: 0 0 60px crimson, inset 0 0 60px crimson;
+  box-shadow: 0 0 60px #f0bd01, inset 0 0 60px #f09506;
 }
 .plane.main .circle::before, .plane.main .circle::after {
   content: "";
@@ -52,10 +52,10 @@ html, body {
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 10%;
-  height: 10%;
+  width: 2%;
+  height: 2%;
   border-radius: 100%;
-  background: crimson;
+  background: #f05442;
   box-sizing: border-box;
   box-shadow: 0 0 60px 2px crimson;
 }
