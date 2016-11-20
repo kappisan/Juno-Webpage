@@ -30,7 +30,7 @@
   animation-delay: 0s, 3.5s, 2.0s;
 }
 
-#Draw-Mark {
+#Draw-letter1 {
   stroke-dashArray: 1100;
   stroke-dashoffset: 1100; 
 }
@@ -82,7 +82,7 @@
   animation-delay: 0s, 3.5s, 2.0s;
 }
 
-#Draw-Mark:hover {
+#Draw-letter1:hover {
   stroke-dashArray: 1100;
   stroke-dashoffset: 1100; 
 }
@@ -216,22 +216,88 @@ header a, a:visited {
 }
 
 
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 18px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 36px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+
+
 </style>
 </head>
 <body>
+
+
+
+<div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+
+
 <div class="stars">
 <div class="twinkling">
 <div class="clouds">
+
+
+
+
+
+
+
 <svg id="Logo-Defs" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
   <defs>
+
+
+
+
     <linearGradient id="MyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="5%"  stop-color="#F7D696"/>
       <stop offset="50%" stop-color="#EEBE7B" />
       <stop offset="95%" stop-color="#CEA058"/>
+
     </linearGradient>
   
     <g id="Logo-Group">
-  <path id="Mark" d="M349.128,424.287c0,13.5,4.749,25,14.25,34.5c9.499,9.502,21,14.25,34.5,14.25s24.999-4.748,34.5-14.25
+  <path id="letter1" d="M349.128,424.287c0,13.5,4.749,25,14.25,34.5c9.499,9.502,21,14.25,34.5,14.25s24.999-4.748,34.5-14.25
 		c9.499-9.5,14.25-21,14.25-34.5v-75h-3.75v75c0,12.4-4.401,23.002-13.2,31.799c-8.801,8.801-19.401,13.201-31.8,13.201
 		c-12.401,0-23.001-4.4-31.8-13.201c-8.801-8.797-13.2-19.398-13.2-31.799"/>
   
@@ -257,14 +323,39 @@ header a, a:visited {
 </svg>
 
 <svg id="Logo" class="Animate-Path" width="100%" height="100%" viewBox="0 0 612 792" xml:space="preserve">
-  <use id="Draw-Mark" class="Animate-Draw" xlink:href="#Mark" />
+  <use id="Draw-letter1" class="Animate-Draw" xlink:href="#letter1" />
   <use id="Draw-Frame" class="Animate-Draw" xlink:href="#Frame" />
   <use id="Draw-Text" class="Animate-Draw" xlink:href="#Logo-Text" />
   <!--<use class="Animate-Fill" xlink:href="#Logo-Group" /> -->
 </svg> 
 
+
+
+
 </div></div></div>
 
 </object>
+
+<script>
+
+$(document).ready(function(){
+  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+
+</script>
+
+
+
 </body>
+
+
+
+
+
+
+
+
+
 </html>
