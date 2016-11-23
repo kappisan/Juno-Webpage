@@ -263,6 +263,16 @@ header a, a:visited {
 }
 
 
+#page2 {
+  display: none;
+    z-index: 99999999999999999;
+    width: 100%;
+    position: absolute;
+    height: 800px;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+}
+
 /* Icon 1 */
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {

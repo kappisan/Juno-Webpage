@@ -107,6 +107,8 @@
 
 </object>
 
+<div id="page2"></div>
+
 <script>
 
 $(document).ready(function(){
@@ -115,6 +117,10 @@ $(document).ready(function(){
     });
 
     $("#button-scrolldown").on("click", function() {
+        console.log("clicked go down button");
+
+        $("#page2").css("display", "block");
+
         $("body").animate({"scrollTop": window.scrollY-300}, 1000);
         return false;
     });
