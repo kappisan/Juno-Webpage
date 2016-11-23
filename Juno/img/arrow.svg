@@ -6,10 +6,11 @@
 	 xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{fill:none;stroke:#EFC370;stroke-width:3;stroke-miterlimit:10;}
+	.st0{fill:#EFC370;}
+	.st1{fill:none;stroke:#EFC370;stroke-width:70;stroke-miterlimit:10;}
 ]]>
 </style>
-<line class="st0" x1="575.469" y1="410.27" x2="595.702" y2="431.329"/>
-<line class="st0" x1="615.935" y1="410.27" x2="595.702" y2="431.329"/>
-<line class="st0" x1="594.594" y1="430.875" x2="596.781" y2="430.875"/>
+<line class="st1" x1="138.742" y1="134.873" x2="619.654" y2="635.432"/>
+<line class="st1" x1="1100.565" y1="134.873" x2="619.654" y2="635.432"/>
+<rect x="594.458" y="617.182" class="st0" width="50.208" height="42.5"/>
 </svg>

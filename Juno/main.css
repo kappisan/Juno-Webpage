@@ -241,15 +241,16 @@ header a, a:visited {
 
 
 .arrow {
-	z-index: 999;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  background-image: url(./img/arrow.svg);
-  background-size: contain;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    margin-bottom: -10px;
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/arrow.svg);
+    background-size: contain;
 }
 
 .bounce {
