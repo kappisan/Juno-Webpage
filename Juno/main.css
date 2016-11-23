@@ -244,7 +244,7 @@ header a, a:visited {
     z-index: 999;
     position: fixed;
     bottom: 0;
-    left: 50%;
+         left: 15%;
     margin-left: -20px;
     margin-bottom: -10px;
     width: 50px;
@@ -481,6 +481,7 @@ header a, a:visited {
 
 
 /* Gif Transistions */
+
 .p1 { /* The image used */background-image: url("https://media.giphy.com/media/BFHj2VF4vi3GE/giphy.gif");
 
     /* Set a specific height */
