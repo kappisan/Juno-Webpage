@@ -220,8 +220,6 @@ header a, a:visited {
 /* Jumping arrow*/
 
 
-
-
  
 .fa {
 
@@ -233,12 +231,36 @@ header a, a:visited {
  
 }
 
+
+ 
+.fa2 {
+
+    height: 42px;
+    background-image: url(./img/arrowright.svg);
+    background-size: contain;
+ width: 60px;
+ display: block;}
+ 
+
+
 .bounce {
      
   z-index: 9999;
  position: absolute;
     bottom: 0;
          left: 15%;
+    margin-left: -20px;
+    margin-bottom: 10px;
+ border: 0px solid #990000;}
+
+
+.bounce2 {
+     
+  z-index: 9999;
+ position: absolute;
+    bottom: 0;
+         left: 90%;
+         top: 350px;
     margin-left: -20px;
     margin-bottom: 10px;
  border: 0px solid #990000;
