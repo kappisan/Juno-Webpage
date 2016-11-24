@@ -6,33 +6,30 @@
 
 <link rel="stylesheet" type="text/css" href="main.css" media="all">
 
+<!-- animsition.css -->
+<link rel="stylesheet" href="../dist/css/animsition.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="../dist/js/animsition.min.js"></script>
+
 <style>
 
 
-
+body { overflow: hidden; background: #000; }
 
 </style>
 
 </head>
 <body>
 
-<!-- Hamburger
-<div >
-
-<div id="nav-icon3">
-
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
--->
-</div>
-
 <!-- Arrow-->
 
+<span>
 
-<div class="bounce"><i class="fa fa-angle-double-down"></i></div>
+ <div class="animsition-overlay" data-animsition-overlay="true">  
+<a href="page1.html" class="animsition-link">
+<div class="bounce"><i class="fa fa-angle-double-down"></i></div></a>
  
 
 
@@ -45,7 +42,7 @@
 <div class="stars">
 <div class="twinkling">
 <div class="clouds">
-
+</div></div></div></div>
 
 
 
@@ -101,46 +98,53 @@
   <!--<use class="Animate-Fill" xlink:href="#Logo-Group" /> -->
 </svg> 
 
+</span>
 
+</div>
 
-</div></div></div></div>
 
 <div class="p1" width="100%"></div>
 
 
 
-</object>
 
-<div id="page2"></div>
+
+
+
 
 <script>
 
-$(document).ready(function(){
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-      $(this).toggleClass('open');
-    });
-
-    $("#button-scrolldown").on("click", function() {
-        console.log("clicked go down button");
-
-        $("#page2").css("display", "block");
-
-        $("body").animate({"scrollTop": window.scrollY-300}, 1000);
-        return false;
-    });
-}); 
+$(document).ready(function() {
+  $(".animsition-overlay").animsition({
+    inClass: 'overlay-slide-in-top',
+    outClass: 'overlay-slide-out-top',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : true,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
 
 </script>
 
 
 
+
 </body>
-
-
-
-
-
-
 
 
 
