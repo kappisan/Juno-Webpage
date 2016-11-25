@@ -101,6 +101,7 @@ input::-webkit-input-placeholder {
   width: 130px;
   padding-left: 32px;
  color: #eeca88;
+ font-family: helvetica;
   background-color: transparent;
   cursor: auto;
 }
