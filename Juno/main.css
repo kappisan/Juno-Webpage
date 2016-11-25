@@ -10,7 +10,7 @@ p {color: #eeca88; font-family: helvetica;}
 /* Header */
 
 .header23 {
-    background-color: #17142c;
+    background-color: rgba(8, 0, 62, .4);
     width: 100%;
     z-index: 99999;
     height: 100px;
