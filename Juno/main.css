@@ -10,7 +10,7 @@ p {color: #eeca88; font-family: helvetica;}
 /* Header */
 
 .header23 {
-    background-color: #000;
+    background-color: #17142c;
     width: 100%;
     z-index: 99999;
     height: 100px;
@@ -648,7 +648,7 @@ left: 35%;
   position: absolute;
   top: 0;
   text-align: left;
-  overflow: hidden;
+  overflow: scroll;
   padding: 0;
   pointer-events: none;
   -webkit-transform: translate3d(0, 3em, 0);
@@ -754,7 +754,7 @@ left: 35%;
 
 .timeline {
     position: relative;
-    top: 65px;
+    top: 0px;
     background-color: rgba(8, 0, 62, .4);
     width: 500px;
     height: 650px;}
@@ -793,11 +793,21 @@ position: relative;
 .profilei {     position: absolute;
     clip: rect(0px,460px,460px,0px);
     left: 20px;
+
+}
+
+.profiles {         position: relative;
+    width: 40px;
+    top: 475px;
+    left: 200px;
+
 }
 
 
 
 
+.profilesc
+{max-width: 30%; left: 5%; width: 20%; position: relative; top: 433px; left: -200px;}
 
 
 
