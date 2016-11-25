@@ -2,24 +2,30 @@
 
 body {  background: #000; }
 
+/* font */ 
 
+p {color: #eeca88; font-family: helvetica;}
 
 
 /* Header */
 
-.header { background-color: #000; width: 100%; z-index: 99999; }
-
-
+.header23 {
+    background-color: #000;
+    width: 100%;
+    z-index: 99999;
+    height: 100px;
+    position: fixed;
+}
 
 
 .timetitle {
+ z-index: 9999;
+    width: 16%;
+    position: absolute;
+    max-width: 30%;
+    top: 3px;
+    left: 42%;
 
-  z-index: 9999;
-  width: 13%;
-  position: fixed; 
-  max-width: 30%;
-  top: 13px;
-  left: 40%;
 
 }
 
@@ -33,7 +39,7 @@ body {  background: #000; }
 
 z-index: 9999;
 top: 30px;
- position: fixed;
+ position: absolute;
   max-width: 30%; left: 5%; width: 30%;}
 
 
@@ -56,7 +62,7 @@ input::-webkit-search-cancel-button {
 
 input[type=search] {
   background: transparent url(./img/search.png) no-repeat 9px center;
-  border: solid 1.5px #eeca88;
+  border: solid 2px #eeca88;
   padding: 9px 10px 9px 32px;
   width: 55px;
   
@@ -129,11 +135,11 @@ input::-webkit-input-placeholder {
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
   z-index: 999;
-  width: 2.5%;
+  width: 3.5%;
   height: 45px;
-  position: fixed;
+  position: absolute;
 left: 90%;
-  top: -15px;
+  top: -11px;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -173,11 +179,11 @@ left: 90%;
 }
 
 #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-  top: 11px;
+  top: 13px;
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 22px;
+  top: 25px;
 }
 
 #nav-icon3.open span:nth-child(1) {
@@ -207,7 +213,13 @@ left: 90%;
 }
 
 
+/* Line */
 
+.line {    height: 3px;
+    width: 100%;
+    background-color: #eeca88;
+    position: fixed;
+    top: 101px;}
 
 /* Body */
 
@@ -361,7 +373,7 @@ left: 90%;
 }
 
 .stars, .twinkling, .clouds {
-  position:fixed;
+  position:absolute;
   top:0;
   left:0;
   right:0;
@@ -522,7 +534,7 @@ left: 90%;
     min-height: 600px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;}     
@@ -741,12 +753,67 @@ left: 35%;
 /*Timeline */
 
 .timeline {
- z-index: 99999999;
-  background-color: #000000;
-  width: 400px;
-  height: 400px;
+    position: relative;
+    top: 65px;
+    background-color: rgba(8, 0, 62, .4);
+    width: 500px;
+    height: 650px;}
 
-
+.profilep{
+width: 9%;
+position: relative;
+    right: 42%;
+    top: 20px;
+    border-radius: 50%;
 
 
 }
+
+.profilen{
+    width: 9%;
+    position: relative;
+    right: 30%;
+    top: -13px;
+    border-radius: 50%;
+
+
+}
+
+
+.profilet{
+    width: 9%;
+    position: relative;
+    right: -42%;
+    top: -32px;
+    border-radius: 50%;
+
+
+}
+
+.profilei {     position: absolute;
+    clip: rect(0px,460px,460px,0px);
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
