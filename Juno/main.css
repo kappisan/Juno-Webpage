@@ -23,8 +23,8 @@ p {color: #eeca88; font-family: helvetica;}
     width: 16%;
     position: absolute;
     max-width: 30%;
-    top: 3px;
-    left: 42%;
+    top: -15px;
+    left: 41%;
 
 
 }
@@ -135,10 +135,10 @@ input::-webkit-input-placeholder {
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
   z-index: 999;
-  width: 3.5%;
+  width: 2.5%;
   height: 45px;
   position: absolute;
-left: 90%;
+left: 92%;
   top: -11px;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
@@ -155,7 +155,7 @@ left: 90%;
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
   display: block;
   position: absolute;
-  height: 1.5px!important;
+  height: 2.5px!important;
   width: 100%;
   background: #eeca88;
   border-radius: 0px;
@@ -373,7 +373,7 @@ left: 90%;
 }
 
 .stars, .twinkling, .clouds {
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   right:0;
