@@ -217,7 +217,7 @@ left: 92%;
 
 .line {    height: 3px;
     width: 100%;
-    background-color: #eeca88;
+    background-color: #ffffff;
     position: absolute;
     top: 101px;}
 
@@ -813,14 +813,76 @@ position: relative;
 
 
 
+.profilep2 {
+    width: 10%;
+    position: relative;
+    top: -10px;
+    left: -200px;
+    border-radius: 50%;
+
+}
+
+.profilen2{
+       width: 9%;
+    position: relative;
+    top: -135px;
+    border-radius: 50%;
+    left: -3%;
+    font-size: 25px;
 
 
+}
 
+.profiles2 {         position: relative;
+    width: 40px;
+    top: 475px;
+    left: 200px;
 
+}
 
+.profilee {  
+    position: relative;
+    top: -162px;
+    width: 2%;
+    left: 7%;
+}
 
+.profilestat1 {
+       width: 9%;
+    position: relative;
+    top: -150px;
+    border-radius: 50%;
+    left: -3%;
+    font-size: 18px;
+   color: #fff;}
 
+    .profilestat2 {
+         width: 9%;
+    position: relative;
+    top: -170px;
+    border-radius: 50%;
+    left: 9%;
+    font-size: 18px;
+   color: #fff;}
 
+    .profilestat3 {
+      width: 9%;
+    position: relative;
+    top: -191px;
+    border-radius: 50%;
+    left: 21%;
+    font-size: 18px;
+    color: #fff;
+}
+
+    .profilestat4 {
+     width: 9%;
+    position: relative;
+    top: -177px;
+    border-radius: 50%;
+    left: -3%;
+    font-size: 18px;
+}
 
 
 
