@@ -637,10 +637,6 @@ left: 35%;
   font-size: 150%;
 }
 
-/* Individual styles */
-
-
-/* Chisato */
 
 .input--chisato {
   padding-top: 1em;
@@ -766,3 +762,15 @@ left: 35%;
   }
 }
 
+/*Timeline */
+
+.timeline {
+ z-index: 99999999;
+  background-color: #000000;
+  width: 40%;
+  height: 40%;
+
+
+
+
+}
