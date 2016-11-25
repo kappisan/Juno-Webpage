@@ -292,8 +292,8 @@ header a, a:visited {
   z-index: 9999;
  position: absolute;
     bottom: 0;
-         left: 90%;
-         top: 350px;
+         left: 50%;
+        
     margin-left: -20px;
     margin-bottom: 10px;
  border: 0px solid #990000;
@@ -368,6 +368,9 @@ h1 {font-family: helvetica!important; font-size: 25px; color: #EEBE7B;}
   max-width: 350px;
   width: calc(100% - 2em);
   vertical-align: top;
+top: 150px;
+left: 35%;
+
 }
 
 .input__field {
