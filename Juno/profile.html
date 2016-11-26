@@ -6,17 +6,64 @@
 
 <link rel="stylesheet" type="text/css" href="main.css" media="all">
 
-
+<!-- animsition.css -->
+<link rel="stylesheet" href="../dist/css/animsition.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="../dist/js/animsition.min.js"></script>
 
 <style>
-
-
 
 </style>
 
 </head>
 <body>
+<!--slider-->
 
+<div class="wrapper">
+
+    <input type="checkbox" id="navigation" />
+    <label for="navigation">
+        <!-- Hamburger -->
+
+<div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+    </label>
+<br><br><br><br><br><br><br><br>
+    <nav>
+        <ul>
+            <li><p>
+                <a class="tabs" href=" index.html"> &nbsp; &nbsp;Home</a>
+            </li>
+            <li><p>
+                <a class="tabs" href="timeline.html"> &nbsp; &nbsp;Memory Bank</a>
+            </li>
+            <li><p>
+                <a class="tabs" href=""> &nbsp; &nbsp;Map</a>
+            </li>
+            <li><p>
+                <a class="tabs" href=""> &nbsp; &nbsp;Profile</a>
+
+            </li>
+
+             <li><p>
+                <a class="tabs" href=""> &nbsp; &nbsp;The Orb Relm</a>
+            </li>
+            <li><p>
+                <a class="tabs" href="index.html"> &nbsp; &nbsp;Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+        <section>
+            <article>
+                
 
     
 <!--Background-->
@@ -31,14 +78,6 @@
 <!--header-->
 <div class="header23">
 
-<!-- Hamburger -->
-
-<div id="nav-icon3">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
 
 
 
@@ -76,11 +115,18 @@
 
 <p class="profilestat4">Alex&nbsp;Richardson:&nbsp;Painter/Street&nbsp;Artist/Film&nbsp;Director /Poet/Rapper/Actor/Musician&nbsp;&&nbsp;Designer.
 
-</p></div>
+</p></div><br><br><br><br>
 <iframe class="widget" src="https://snapwidget.com/embed/293180" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:700px; height:700px"></iframe>
 
 <br>
-<img src="./img/loadmore.svg" width="30%">
+
+<!--ARROW--><center>
+ <div class="animsition-overlay" data-animsition-overlay="true">  
+<a href="timeline.html" class="animsition-link">
+<div class="bounce4"><i class="fa fa-angle-double-down"></i></div></a>
+
+
+
 
 </center>
 
@@ -97,11 +143,10 @@ $(document).ready(function(){
 
 </script>
 
-
-
+            </article>
+        </section>
+    </div>
+</div>
 
 </body>
-
-
-
 </html>
