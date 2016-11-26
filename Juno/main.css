@@ -844,9 +844,11 @@ left: 35%;
 .timeline {
     position: relative;
     top: -140px;
-    background-color: rgba(8, 0, 62, .6);
+    background-color: #08003e;
     width: 500px;
-    height: 625px;}
+    height: 625px;
+    border-radius: 3px;
+  }
 
 .profilep{
 width: 9%;
