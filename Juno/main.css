@@ -38,7 +38,7 @@ p {color: #eeca88; font-family: helvetica;}
 .searcher {   
 
 z-index: 9999;
-top: 30px;
+top: 25px;
  position: absolute;
   max-width: 30%; left: 5%; width: 30%;}
 
@@ -62,7 +62,7 @@ input::-webkit-search-cancel-button {
 
 input[type=search] {
   background: transparent url(./img/search.png) no-repeat 9px center;
-  border: solid 2px #eeca88;
+  border: solid 3px #eeca88;
   padding: 9px 10px 9px 32px;
   width: 55px;
   
@@ -75,14 +75,15 @@ input[type=search] {
   transition: all .5s;
 }
 input[type=search]:focus {
-  width: 130px;
+  width: 750px;
   background-color: transparent;
   border-color: #eeca88;
-  border-radius: 0px;
+  border-radius: 10em;
   color: #eeca88;
   -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
   -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
   box-shadow: 0 0 5px rgba(109,207,246,.5);
+
 }
 
 
@@ -95,7 +96,8 @@ input::-webkit-input-placeholder {
 
 /* Demo 2 */
 #demo-2 input[type=search] {
-  width: 15px;
+      width: 30px;
+    height: 30px;
   padding-left: 10px;
   color: transparent;
   cursor: pointer;
@@ -135,7 +137,7 @@ input::-webkit-input-placeholder {
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
   z-index: 999;
-  width: 2.5%;
+  width: 3.3%;
   height: 45px;
   position: absolute;
 left: 92%;
@@ -174,7 +176,7 @@ left: 92%;
 /* Icon 3 */
 
 #nav-icon3 span:nth-child(1) {
-  top: 0px;
+  top: -7px;
   height: 1.5px;
 }
 
@@ -183,7 +185,7 @@ left: 92%;
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 25px;
+  top: 31px;
 }
 
 #nav-icon3.open span:nth-child(1) {
@@ -635,7 +637,7 @@ left: 35%;
   padding: 0.8em 0.5em;
   background: transparent;
   border: 2px solid;
-  color: #b5b5b5;
+  color: #ffffff;
   -webkit-transition: border-color 0.25s;
   transition: border-color 0.25s;
       position: relative;
@@ -658,8 +660,9 @@ left: 35%;
 .input__label-content--chisato {
 
   font-weight: 400;
-  color: #b5b5b5;
+  color: #ffffff;
   font-family: helvetica!important;
+  font-weight: bold;
   position: relative;
 
 }
@@ -889,4 +892,4 @@ position: relative;
 .widget {position: relative;top: -70px;}
 
 
-
+.profiil {position: relative;left: -50px;}
