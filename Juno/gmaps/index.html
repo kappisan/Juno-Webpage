@@ -35,7 +35,7 @@
     ]
   },
   {
-    "elementType": "labels.text",
+    "elementType": "labels",
     "stylers": [
       {
         "visibility": "off"
@@ -46,7 +46,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#a4a0e3"
+        "color": "#8ec3b9"
       }
     ]
   },
@@ -54,16 +54,22 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#1a1928"
+        "color": "#1a3646"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
   {
     "featureType": "administrative.country",
     "stylers": [
-      {
-        "color": "#81d5a2"
-      },
       {
         "visibility": "off"
       }
@@ -72,6 +78,14 @@
   {
     "featureType": "administrative.country",
     "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#4b6878"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
     "stylers": [
       {
         "visibility": "off"
@@ -88,8 +102,7 @@
     ]
   },
   {
-    "featureType": "administrative.province",
-    "elementType": "geometry.stroke",
+    "featureType": "administrative.neighborhood",
     "stylers": [
       {
         "visibility": "off"
@@ -97,11 +110,19 @@
     ]
   },
   {
-    "featureType": "landscape.man_made",
-    "elementType": "geometry.fill",
+    "featureType": "administrative.province",
+    "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#090025"
+        "color": "#4b6878"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "stylers": [
+      {
+        "color": "#ffeb3b"
       }
     ]
   },
@@ -129,6 +150,22 @@
     "stylers": [
       {
         "color": "#090030"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.natural.landcover",
+    "stylers": [
+      {
+        "color": "#090030"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -164,7 +201,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#090030"
+        "color": "#023e58"
       }
     ]
   },
@@ -173,16 +210,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#4e23ff"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#000000"
+        "color": "#3C7680"
       }
     ]
   },
@@ -205,10 +233,19 @@
   },
   {
     "featureType": "road",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#a4a0e3"
+        "color": "#98a5be"
       }
     ]
   },
@@ -217,7 +254,7 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#a4a0e3"
+        "color": "#1d2c4d"
       }
     ]
   },
@@ -226,19 +263,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#2c66ff"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#040112"
-      },
-      {
-        "visibility": "off"
+        "color": "#2c6675"
       }
     ]
   },
@@ -247,7 +272,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#867ae5"
+        "color": "#255763"
       }
     ]
   },
@@ -256,7 +281,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#535499"
+        "color": "#b0d5ce"
       }
     ]
   },
@@ -265,7 +290,7 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#535499"
+        "color": "#023e58"
       }
     ]
   },
@@ -315,6 +340,14 @@
   },
   {
     "featureType": "water",
+    "stylers": [
+      {
+        "color": "#090030"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
     "elementType": "geometry",
     "stylers": [
       {
@@ -327,7 +360,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#dcf3ff"
+        "color": "#ffffff"
       }
     ]
   },
@@ -336,7 +369,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#7e84ff"
+        "color": "#4e6d70"
       }
     ]
   }
@@ -346,7 +379,9 @@
 
 
 
-        var iconBase = 'orb2.png';
+
+
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
         var icons = {
           parking: {
             icon: iconBase + 'parking_lot_maps.png'
