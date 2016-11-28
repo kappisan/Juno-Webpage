@@ -699,6 +699,7 @@ left: 35%;
   display: block;
   padding: 1.6em 0;
   width: 100%;
+  top:20px;
 }
 
 .graphic {
@@ -727,7 +728,7 @@ left: 35%;
   -webkit-transition: border-color 0.25s;
   transition: border-color 0.25s;
       position: relative;
-    top: 25px;
+    top: 40px;
  
 }
 
