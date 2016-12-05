@@ -9,6 +9,7 @@ font-family: cool;
 src: url("./coolvetica rg.ttf") format("opentype");
 }  
 
+iframe {border:none;}
 
 table {
   border-collapse: collapse;
@@ -931,7 +932,7 @@ a {text-decoration: none; }
 
  body{background-color: #08003e;     }
 
-
+#gris {background-color:#dddddd; }
 
 
 
