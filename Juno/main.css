@@ -8,26 +8,46 @@ p {color: #eeca88; font-family: helvetica;}
 
 a {text-decoration: none!important;}
 
+
+@font-face {
+font-family: cool;
+src: url("./coolvetica rg.ttf") format("opentype");
+}
+
 /* Header */
 
+#grad {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, transparent); /* Standard syntax */
+    height: 100px;
+}
+
+
+hr {width: 100%; background-color: #ffffff; height: 3px; position: fixed; top: 97px;}
 .header23 {
-    background-color: #08003e;
+    background-color: rgba(255, 255, 255, .4);
+
     width: 100%;
     height: 100px;
     position: fixed;
     top: 0px;
     border-bottom: #ffffff;
+    border-top: none
     border-style: solid;
     z-index: 8;
 }
 
+.gliff {width: 240px; position: fixed;top: 100px; left: -2px;}
 
 .timetitle {
 z-index: 9999;
-    width: 10%;
+    width: 60px;
     position: absolute;
-    max-width: 30%;
-    top: 1px;
+
+    top: 20px;
     left: 44%;
 
 
@@ -42,7 +62,7 @@ z-index: 9999;
 .searcher {   
 
 z-index: 9999;
-top: 30px;
+top: 25px;
  position: absolute;
   max-width: 30%; right: -13%; width: 30%;}
 
@@ -65,8 +85,8 @@ input::-webkit-search-cancel-button {
 
 
 input[type=search] {
-  background: transparent url(./img/search.png) no-repeat 9px center;
-  border: solid 2px #eeca88;
+  background: transparent url(./img/search.svg) no-repeat 9px center;
+  border: solid 2px #ffffff;
   padding: 9px 10px 9px 32px;
   width: 55px;
   
@@ -81,7 +101,7 @@ input[type=search] {
 input[type=search]:focus {
   width: 750px;
   background-color: transparent;
-  border-color: #eeca88;
+  border-color: #ffffff;
   border-radius: 10em;
   color: #eeca88;
   -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
@@ -100,8 +120,8 @@ input::-webkit-input-placeholder {
 
 /* Demo 2 */
 #demo-2 input[type=search] {
-         width: 4.5%;
-    height: 20px;
+            width: 7%;
+    height: 30px;
     padding-left: 10px;
     color: transparent;
     cursor: pointer;
@@ -146,7 +166,7 @@ input::-webkit-input-placeholder {
     width: 2.5%;
     height: 45px;
     position: fixed;
-    left: 13%;
+    left: 5%;
     top: -15px;
     margin: 50px auto;
   -webkit-transform: rotate(0deg);
@@ -163,9 +183,9 @@ input::-webkit-input-placeholder {
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
   display: block;
   position: absolute;
-  height: 1.5px!important;
+  height: 2.5px!important;
   width: 100%;
-  background: #eeca88;
+  background: #ffffff;
   border-radius: 0px;
   opacity: 1;
   left: 0;
@@ -422,7 +442,7 @@ input::-webkit-input-placeholder {
 .fa {
 
     height: 42px;
-    background-image: url(./img/arrow.svg);
+    background-image: url(./img/arrow2.svg);
     background-size: contain;
  width: 60px;
  display: block;
@@ -533,7 +553,7 @@ input::-webkit-input-placeholder {
      
   z-index: 9999;
  position: absolute;
-    bottom: -2350px;
+    bottom: -5380px;
          left: 50%;
     margin-left: -20px;
     margin-bottom: 10px;
@@ -846,10 +866,8 @@ left: 35%;
 .timeline {
     position: relative;
     top: -140px;
-    background-color: #08003e;
-    width: 500px;
-    height: 625px;
-    border-radius: 3px;
+
+
   }
 
 .profilep{
@@ -999,8 +1017,8 @@ section li{
 }
 
 .wrapper{
-    overflow:hidden;
-    z-index: 999999999999999;
+
+    z-index: 9999999;
 }
 section{
     padding:30px 30px 30px 80px;
@@ -1012,7 +1030,7 @@ section{
 }
 nav{ 
     z-index: 9;
-    
+       
     position: fixed;
     top: 108px;
     left: 0;left:0;
@@ -1025,13 +1043,14 @@ nav{
     transition:all 200ms ease-in;
 }
 nav ul{
-    width:250px;
-    height:100%;
-    padding:0;
-    margin:0;
-    list-style:none;
-    background:#08003e;
-    overflow:hidden;
+        width: 219px;
+    height: 290px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, .4);
+    border-bottom: 5px solid #ffffff;
+            border-right: 5px solid #ffffff;
 }
 nav li{
     margin:0;
@@ -1048,7 +1067,7 @@ nav a{
   
 }
 nav a:hover{
-    background:#070322;
+    background:#000000;
 }
 label{
     display:block;
@@ -1086,7 +1105,7 @@ input[type="checkbox"]:checked ~ section{
     transform:translate3d(260px, 0, 0);
 }
 
-.tabs {position: relative;top: 20px;}
+.tabs {position: relative;top: 20px; font-family: cool;}
 
 .as {    color: #ffffff;
     z-index: 9;
