@@ -607,7 +607,7 @@ input::-webkit-input-placeholder {
      
   z-index: 9999;
  position: absolute;
-    bottom: -1100px;
+    bottom:  -1750px;
          left: 50%;
     margin-left: -20px;
     margin-bottom: 10px;
@@ -1053,11 +1053,11 @@ nav{
 }
 nav ul{
         width: 242px;
-            height: 290px;
+            height: 300px;
     padding: 0;
     margin: 0;
     list-style: none;
-    background: rgba(255, 255, 255, .4);
+    background: #727272;
     border-bottom: 5px solid #ffffff;
             border-right: 5px solid #ffffff;
 }
@@ -1276,8 +1276,11 @@ p { width: 70%; }
 }
 
 
+.snapwidget-widget {border-style: solid; border-color: #727272; z-index: 999; }
 
+.snappy {border-style: solid; border-color: #ffffff; width: 757px; height: 1507px; z-index: 999;}
 
+.proff {z-index: 999;}
 
-
+.photo { position: fixed;}
 
