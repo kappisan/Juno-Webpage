@@ -63,6 +63,10 @@ z-index: 9999;
 
 }
 
+.gliff2{position: absolute;
+    top: 908px;
+    right: 790px;
+    width: 20%;}
 
 
 
@@ -1283,4 +1287,5 @@ p { width: 70%; }
 .proff {z-index: 999;}
 
 .photo { position: fixed;}
+
 
