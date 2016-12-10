@@ -4,7 +4,7 @@ body {  background: #000; }
 
 /* font */ 
 
-p {color: #eeca88; font-family: helvetica;}
+p {color: #ffffff; font-family: helvetica; font-size: ;}
 
 a {text-decoration: none!important;}
 
@@ -67,6 +67,20 @@ z-index: 9999;
     top: 908px;
     right: 790px;
     width: 20%;}
+
+.gliff3{ position: absolute;
+    top: 1177px;
+    right: 249px;
+    width: 02%;
+}
+
+
+.gliff4{ position: fixed;
+    z-index: 9;
+       width: 14.08%;
+
+    right: 0px;
+}
 
 
 
@@ -425,6 +439,10 @@ input::-webkit-input-placeholder {
 
 }
 
+.stars {
+
+    z-index: -1;
+}
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
@@ -649,6 +667,55 @@ input::-webkit-input-placeholder {
  60% {transform: translateY(-15px);}
 
 }
+
+
+
+
+.bounce5 {
+     
+  z-index: 9999;
+ position: absolute;
+    bottom:  5px;
+         left: 50%;
+    margin-left: -20px;
+    margin-bottom: 10px;
+ border: 0px solid #990000;
+
+
+
+
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+
+}
+
+
+
 /* Gif Transistions */
 
 .p1 { /* The image used */background-image: url("https://media.giphy.com/media/BFHj2VF4vi3GE/giphy.gif");
@@ -700,7 +767,35 @@ left: 35%;
   font-weight: 400;
  font-family: cool!important;
   -webkit-appearance: none; /* for box shadows to show on iOS */
+  font-size: 18px;
 }
+
+.input_cam3 {
+  position: absolute;
+
+  width: 20%;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+ font-family: cool!important;
+ 
+}
+
+.input__cam3 {
+
+     background: transparent;
+ border:  2px solid ;
+    color: #ffffff;
+    position: relative;
+    top: -520px;
+    left: -53px;
+    font-size: 18;
+    
+ 
+}
+
+
+
 
 .input__field:focus {
   outline: none;
@@ -763,6 +858,9 @@ left: 35%;
     left:-24px;
  
 }
+
+
+
 
 .input__label--chisato {
   width: 100%;
@@ -1288,4 +1386,6 @@ p { width: 70%; }
 
 .photo { position: fixed;}
 
+#myImage {position: fixed!important; top: 100px; z-index: -1;}
 
+.buhbuh {position: fixed;right: -15px; z-index: 10; background-color: transparent; border: none; width: 12%; font-size: 20px; text-align: right; border-style: none;}
