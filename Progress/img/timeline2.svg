@@ -714,8 +714,6 @@ v8Wvtfmvuu3+LX2vzT/+Lt/i19s81912/wAWvtnmvuu3+LVPOea+67f4tU855r7rt/i1Tzfmvuu3
 	602.832,884.369 "/>
 <polygon fill="#1EF4FB" stroke="#1EF4FB" stroke-miterlimit="10" points="719.567,889.738 724.785,903.238 1224.207,903.238 
 	1231.661,889.738 "/>
-<path opacity="0.9" stroke="#FFFFFF" stroke-miterlimit="10" d="M1304.141,153.738v717c0,0-3,20.5,29.75,20.5s515.25,0,515.25,0
-	s20.75,3.75,20.75-18.5s0-620,0-620l-98-99H1304.141z"/>
 <g id="ecFKsI_4_">
 	
 		<image overflow="visible" width="506" height="316" id="ecFKsI_5_" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
@@ -1048,7 +1046,7 @@ R/FVN7d+6j+Kvtt37qP4q+23fuo/ir7bd+6j+Kvtt37qP4q+23fuo/ir7bd+6j+Kq72791H8VU3t
 	1351.917,570.072 1415.799,570.072 1423.6,578.075 1358.393,578.075 1344.115,590.148 "/>
 <rect x="1343.141" y="251.181" fill="none" width="445" height="215.784"/>
 <text transform="matrix(1 0 0 1 1343.1409 264.6211)"><tspan x="0" y="0" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">Dolor sit amet, consectetur adipiscing elit, sed do </tspan><tspan x="0" y="24" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">eiusmod tempor incididunt ut labore et dolore magna </tspan><tspan x="0" y="48" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">aliqua. Ut enim ad minim veniam, quis nostrud exerci</tspan><tspan x="427.312" y="48" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">-</tspan><tspan x="0" y="72" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">tation ullamco laboris nisi ut aliquip ex ea commodo </tspan><tspan x="0" y="96" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">consequat. Duis aute irure dolor in reprehenderit in </tspan><tspan x="0" y="120" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">voluptate velit esse cillum dolore eu fugiat nulla paria</tspan><tspan x="438.131" y="120" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">-</tspan><tspan x="0" y="144" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">tur. Excepteur sint occaecat cupidatat non proident, </tspan><tspan x="0" y="168" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">sunt in culpa qui officia deserunt mollit anim id est </tspan><tspan x="0" y="192" fill="#EEEEEE" font-family="'CoolveticaRg-Regular'" font-size="20">laborum.</tspan></text>
-<polygon fill="#FC5808" stroke="#0EC8A3" stroke-miterlimit="10" points="1334.905,890.238 1340.122,903.738 1839.545,903.738 
+<polygon fill="#FC5808" stroke="#FC5808" stroke-miterlimit="10" points="1334.905,890.238 1340.122,903.738 1839.545,903.738 
 	1846.999,890.238 "/>
 <g>
 	<rect x="225.779" y="965.5" fill="none" width="172" height="38"/>
